@@ -1,0 +1,89 @@
+.header {
+  background: url("../assets/images/header.png") no-repeat center/cover;
+  min-height: 1005px;
+
+  font-family: 'DM Serif Display', serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: #fff;
+
+  position: relative;
+
+  .header__car {
+    position: absolute;
+    bottom: -265px;
+  }
+
+  .header__top {
+    padding-top: 40px;
+
+    display: flex;
+    justify-content: space-between;
+
+    .logo {
+      line-height: 46px;
+
+      h1 {
+        display: flex;
+        align-items: center;
+        font-size: 32px;
+        font-weight: 400;
+      }
+
+      :before {
+        content: url("../assets/images/logo.svg");
+        margin-right: 28px;
+      }
+    }
+
+    .nav {
+      transform: translateX(55px);
+
+      ul {
+        min-width: 605px;
+        display: flex;
+        justify-content: space-between;
+
+        li {
+            a {
+
+            }
+          }
+        }
+      }
+    }
+
+
+    .header__hero {
+      margin-top: 90px;
+      .header__title {
+        margin-bottom: 60px;
+        font-size: 100px;
+        max-width: 740px;
+        line-height: 110px;
+
+      }
+
+
+    }
+
+    .header__link {
+      font-family: 'Rubik', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 19px;
+      letter-spacing: 0.05em;
+      color: #fff;
+    }
+
+    .header__btn {
+      background: #EE4D47;
+      border-radius: 5px;
+      padding: 20px;
+      border: none;
+
+      img {
+        margin-left: 24px;
+      }
+    }
+}
