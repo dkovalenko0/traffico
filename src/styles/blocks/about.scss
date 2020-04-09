@@ -1,0 +1,18 @@
+.about {
+
+  figure {
+    display: flex;
+    align-items: center;
+    figcaption {
+      min-height: 480px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .about-text {
+        max-width: 470px;
+      }
+
+    }
+  }
+}
