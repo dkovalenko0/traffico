@@ -75,8 +75,19 @@ figure, p {
     }
 }
 
+.block-descr {
+    margin-top: 40px;
+    max-width: 550px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 140%;
+    color: #402B2B;
+}
+
 // blocks
 
 @import "blocks/header";
 @import "blocks/about";
 @import "blocks/howtoapply";
+@import "blocks/faq";
