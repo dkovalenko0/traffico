@@ -17,7 +17,9 @@ body {
   min-height: 6102px;
   display: flex;
   flex-direction: column;
-  // justify-content: space-between;
+  justify-content: space-between;
+
+  background-color: #fef8f5;
 }
 
 a {
@@ -48,10 +50,6 @@ p {
 .container {
   max-width: 1170px;
   margin: 0 auto;
-}
-
-.main {
-  background-color: #fef8f5;
 }
 
 .block-title {
@@ -102,3 +100,4 @@ p {
 @import "blocks/howtoapply";
 @import "blocks/faq";
 @import "blocks/clients";
+@import "blocks/footer";
